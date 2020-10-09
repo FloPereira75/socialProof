@@ -107,6 +107,7 @@ body {
     }
     .div-text-and-rating {
         display: flex;
+        justify-content: space-between;
         width: 100%;
     }
     .text-intro {
