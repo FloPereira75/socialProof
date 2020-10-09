@@ -1,0 +1,54 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0 5%;
+}
+
+/* PRIMARY COLOR */
+.v-d-magenta {
+    color: hsl(300, 43%, 22%);
+}
+.s-pink {
+    color: hsl(333, 80%, 67%);
+}
+/* NEUTRAL COLOR */
+.d-g-magenta {
+    color: hsl(303, 10%, 53%);
+}
+.l-g-magenta {
+    color: hsl(300, 24%, 96%);
+}
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.text {
+    text-align: center;
+}
+
+.big-text {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -3px;
+    margin-top: 20%;
+    margin-bottom: 0;
+}
+
+.rating {
+    margin-top: 10%;
+}
+
+.rating-stars {
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    padding-top: 4%;
+    border-radius: 10px;
+}
+
+.rating-stars p {
+    padding-bottom: 4%;
+    font-weight: 700;
+}
