@@ -3,7 +3,7 @@ body {
     font-size: 15px;
     padding: 0;
     margin: 0 5%;
-    background: url(images/bg-pattern-top-mobile.svg) top no-repeat, url(images/bg-pattern-bottom-mobile.svg) bottom no-repeat;
+    background: url(images/bg-pattern-top-mobile.svg) no-repeat, url(images/bg-pattern-bottom-mobile.svg) bottom no-repeat;
 }
 
 .bold {
@@ -31,7 +31,7 @@ body {
 
 /* ////////////////////////// */
 
-.text {
+.text-intro {
     text-align: center;
 }
 
@@ -98,4 +98,69 @@ body {
 
 .text-testimonial {
     line-height: 22px;
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        margin: 0 7.5%;
+        background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(/images/bg-pattern-bottom-desktop.svg) no-repeat bottom;
+    }
+    .div-text-and-rating {
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-intro {
+        width: 45%;
+        text-align: initial;
+    }
+    .big-text {
+        font-size: 3.5em;
+    }
+    .rating {
+        width: 50%;
+        margin-left: 7%;
+    }
+    .rating-stars {
+        display: flex;
+        align-items: baseline;
+        padding-top: 2%;
+        margin-bottom: 3%;
+        width: 450px;
+    }
+    .rating-stars p {
+        padding-bottom: 2%;
+    }
+    .div-stars {
+        width: 33%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .rating div:nth-child(1) {
+        margin-bottom: 3%;
+    }
+    .rating div:nth-child(2) {
+        margin-bottom: 3%;
+        margin-left: 10%;
+    }
+    .rating div:nth-child(3) {
+        margin-left: 20%;
+    }
+    .testimonials {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .testimonials div:nth-child(2) {
+        margin-top: 2%;
+    }
+    .testimonials div:nth-child(3) {
+        margin-top: 4%;
+    }
+    .testimonial-card {
+        width: 300px;
+        height: 200px;
+        padding: 3%;
+    }
 }
