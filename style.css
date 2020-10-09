@@ -103,7 +103,7 @@ body {
 @media only screen and (min-width: 1000px) {
     body {
         margin: 0 7.5%;
-        background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(/images/bg-pattern-bottom-desktop.svg) no-repeat bottom;
+        background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(images/bg-pattern-bottom-desktop.svg) no-repeat bottom;
     }
     .div-text-and-rating {
         display: flex;
@@ -111,22 +111,23 @@ body {
         width: 100%;
     }
     .text-intro {
-        width: 45%;
+        width: 40%;
         text-align: initial;
+    }
+    .text-intro p:nth-child(2) {
+        line-height: 22px;
     }
     .big-text {
         font-size: 3.5em;
     }
     .rating {
-        width: 45%;
-        margin-left: 7%;
+        width: 40%;
     }
     .rating-stars {
         display: flex;
         align-items: baseline;
         padding-top: 2%;
         margin-bottom: 3%;
-        width: 450px;
     }
     .rating-stars p {
         padding-bottom: 2%;
@@ -141,10 +142,17 @@ body {
     }
     .rating div:nth-child(2) {
         margin-bottom: 3%;
-        margin-left: 10%;
     }
     .rating div:nth-child(3) {
-        margin-left: 20%;
+        
+    }
+    .space-first-rating {
+        position: relative;
+        right: 90px;
+    }
+    .space-second-rating {
+        position: relative;
+        right: 45px;
     }
     .testimonials {
         display: flex;
@@ -153,11 +161,11 @@ body {
         width: 100%;
     }
     .testimonials div:nth-child(1) {
-        margin-right: 3%;
+        margin-right: 2%;
     }
     .testimonials div:nth-child(2) {
         margin-top: 2%;
-        margin-right: 3%;
+        margin-right: 2%;
     }
     .testimonials div:nth-child(3) {
         margin-top: 4%;
@@ -167,4 +175,5 @@ body {
         height: 200px;
         padding: 3%;
     }
+
 }
